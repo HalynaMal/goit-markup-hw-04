@@ -273,6 +273,7 @@ text-align: center;}
 .team-list {
     display: flex;
     gap: 24px;
+    
 }
 
 .title-img {     
@@ -288,35 +289,29 @@ text-align: center;}
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-
-.team-soc-item {
+.team-soc-list {
     width: 40px;
     height: 40px;
-}
-
-.team-soc-link {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    
+    padding: 12px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
 }
 
 .team-soc-icon {
+
 
 }
 
 .team-link {
     display: flex;
-    padding: 0;
-    margin: 0;
-    gap: 8px;
-    justify-content: center;
-}
-.team-link-list {
-   
+    gap: 24px;
+    padding-top: 8px;
+    margin-right: 16px;
+   margin-left: 16px;
 }
 
+
+/* section Portfolio */
 .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
